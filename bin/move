@@ -5,3 +5,5 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
+puts "Please select a square"
+move(board,input_to_index(gets.strip))
